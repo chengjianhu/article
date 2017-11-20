@@ -12,6 +12,9 @@ p {
   margin: 0;
   padding: 0;
 }
+body {
+  background: #f2f2f2;
+}
 .article {
   width: 640px;
   padding: 26px 38px;
@@ -32,6 +35,7 @@ p {
   box-sizing: border-box;
   border: 1px solid #ccc;
   margin-bottom: 20px;
+  background: #ffffff;
 }
 .article .left .article_cnt_ul li .pic {
   width: 100%;
