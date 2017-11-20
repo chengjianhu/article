@@ -13,7 +13,11 @@ p {
   padding: 0;
 }
 body {
+<<<<<<< HEAD
   background: #f2f2f2;
+=======
+	background: #f2f2f2;
+>>>>>>> 2209422d668a48c86c7218e912c29a7c51e75e44
 }
 .article {
   width: 640px;
