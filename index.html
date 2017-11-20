@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/article.css">
+	<title>article</title>
+</head>
+
+<body>
+	<div class="article clearfix">
+		<div class="left ">
+			<ul class="article_cnt_ul">
+				<li>
+					<div class="pic">
+						<img src="./img/1.png" alt="">
+					</div>
+
+					<div class="article_cnt">
+						<h2>My Father</h2>
+						<p>My father was a self-taught mandolin player. He was one of the best string instrument players in our town. He could
+							not read music, but if he heard a tune a few times, he could play it. When he was younger, he was a member of a small
+							country music band.They would play at local dances and on a few occasions would play for the local radio station.
+						</p>
+					</div>
+
+
+				</li>
+
+				<li>
+					<div class="pic">
+						<img src="./img/2.png" alt="">
+					</div>
+
+					<div class="article_cnt">
+						<h2>My Father</h2>
+						<p>My father was a self-taught mandolin player. He was one of the best string instrument players in our town. He could
+							not read music, but if he heard a tune a few times, he could play it. When he was younger, he was a member of a small
+							country music band.They would play at local dances and on a few occasions would play for the local radio station.
+						</p>
+					</div>
+
+
+				</li>
+			</ul>
+		</div>
+
+		<div class="right ">
+			<button>+Add New</button>
+		</div>
+	</div>
+
+
+
+	<!-- 模态框 -->
+	<div class="model">
+		<div class="form">
+			<form action="#">
+				<h2>Add Article</h2>
+				<p>Image</p>
+				<div class="file">
+					<input type="file" multiple="multiple" name="file">
+				</div>
+
+				<p>Title</p>
+				<div>
+					<input type="text">
+				</div>
+
+				<p>Content</p>
+				<div>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</div>
+
+				<div class="btn clearfix">
+					<button class="cancle">Cancle</button>
+					<button class="save">Save</button>
+
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<script src="./lib/jquery/jquery-3.2.1.js"></script>
+	<script>
+		$(function () {
+			var model = $('.model');
+			$('.right').on('click', 'button', function () {
+				var height = $('.left').height();
+				model
+					.addClass('on');
+			})
+			$('.btn').on('click', '.cancle,.save', function () {
+				model
+					.removeClass('on');
+			})
+		})
+	</script>
+</body>
+
+</html>

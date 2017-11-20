@@ -1,0 +1,140 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+.article {
+  width: 640px;
+  padding: 26px 38px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.article .left {
+  width: 395px;
+  float: left;
+}
+.article .left .article_cnt_ul {
+  width: 100%;
+}
+.article .left .article_cnt_ul li {
+  list-style: none;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.article .left .article_cnt_ul li .pic {
+  width: 100%;
+}
+.article .left .article_cnt_ul li .pic img {
+  width: 100%;
+}
+.article .left .article_cnt_ul li .article_cnt h2 {
+  margin: 20px 0;
+}
+.article .left .article_cnt_ul li .article_cnt p {
+  color: #666666;
+}
+.article .right {
+  float: left;
+  margin-left: 46px;
+}
+.article .right button {
+  width: 110px;
+  line-height: 30px;
+  background: #5fb485;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+.model {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 222;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.model .form {
+  width: 380px;
+  height: 400px;
+  background: #ffffff;
+  padding: 25px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.model .form input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  text-indent: 1em;
+}
+.model .form p {
+  margin: 10px 0;
+}
+.model .form .file {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.model .form .file input {
+  opacity: 0;
+}
+.model .form textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ccc;
+  text-indent: 1em;
+  resize: none;
+  outline: none;
+}
+.model .form .btn {
+  width: 100%;
+  margin-top: 16px;
+}
+.model .form .btn button {
+  border: none;
+  line-height: 30px;
+  width: 78px;
+  text-align: center;
+  float: right;
+  outline: none;
+}
+.model .form .btn .save {
+  color: #ffffff;
+  background: #5fb485;
+}
+.model .form .btn .cancle {
+  color: #666666;
+  background: none;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.on {
+  display: block;
+}
